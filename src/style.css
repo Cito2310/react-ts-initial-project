@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.golden {
+    background: repeating-linear-gradient(180deg,#ecdfb6 0%,#ddc474 30%, #7e6a3b 50%,#887c46 65%, #ddbc59 100%);
+}
+
+.text-silver {
+    background: repeating-linear-gradient(180deg,#7c7c7c 0%,#868686 30%, #d4d4d4 42%,#6b6b6b 65%, #474747 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-golden {
+    background: repeating-linear-gradient(180deg,#ecdfb6 0%,#ddc474 30%, #887240 42%,#bea453 65%, #ddbc59 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.transition-base {
+    transition: all 80ms linear
+}
