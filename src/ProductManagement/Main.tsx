@@ -16,13 +16,12 @@ export const ProductManagement = () => {
                     <button className="font-medium px-2 py-2 ">Categorias</button>
                 </div>
                 <div className="flex gap-3 my-3">
-                    <input className="border rounded-md py-0.5 shadow shadow-[#74747431]" />
+                    <input className="border rounded-md py-0.5 shadow shadow-[#747474]" />
                     <ButtonFilter label="Seccion" options={["Alimentos", "Bebidas", "Producto de Limpieza"]} />
 
-                    <button className="border rounded-md py-0.5 px-4 shadow shadow-[#74747431] flex gap-1 items-center">Seccion <i className="fa-solid fa-angle-down text-sm"></i></button>
-                    <button className="border rounded-md py-0.5 px-4 shadow shadow-[#74747431] flex gap-1 items-center">Ubicación <i className="fa-solid fa-angle-down text-sm"></i></button>
-                    <button className="border rounded-md py-0.5 px-4 shadow shadow-[#74747431] flex gap-1 items-center">Nivel de Stock <i className="fa-solid fa-angle-down text-sm"></i></button>
-                    <button className="border rounded-md py-0.5 px-4 shadow shadow-[#74747431] flex gap-1 items-center">Vencimiento <i className="fa-solid fa-angle-down text-sm"></i></button>
+                    <button className="border rounded-md py-0.5 px-4 shadow shadow-[#747474] flex gap-1 items-center">Ubicación <i className="fa-solid fa-angle-down text-sm"></i></button>
+                    <button className="border rounded-md py-0.5 px-4 shadow shadow-[#747474] flex gap-1 items-center">Nivel de Stock <i className="fa-solid fa-angle-down text-sm"></i></button>
+                    <button className="border rounded-md py-0.5 px-4 shadow shadow-[#747474] flex gap-1 items-center">Vencimiento <i className="fa-solid fa-angle-down text-sm"></i></button>
                 </div>
 
                 <table className="w-full rounded-lg">

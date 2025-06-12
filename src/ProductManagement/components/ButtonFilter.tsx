@@ -13,16 +13,30 @@ export const ButtonFilter = ({ label, options }: props) => {
 
     const [selectedOption, setSelectedOption] = useState("");
     const onSelectOption = (option: string) => {
-        setSelectedOption(option);
+        if ( option === selectedOption ) setSelectedOption("");
+        if ( option !== selectedOption ) setSelectedOption(option);
+        toggleIsActive();
     }
 
     return (
         <div className="relative">
-            <button onClick={toggleIsActive} className="bg-white border rounded-md py-0.5 px-4 shadow shadow-[#74747431] flex gap-1 items-center">{label} <i className="fa-solid fa-angle-down text-sm"></i></button>
+            <button 
+                onClick={toggleIsActive} 
+                className={`
+                    border rounded-md py-0.5 px-4 flex gap-1 items-center
+                    ${selectedOption ? "bg-black text-white font-light" : null}
+                    ${selectedOption === "" ? "bg-white text-black shadow shadow-[#747474]" : null}
+                    `}
+                >{selectedOption ? selectedOption : label} <i className="fa-solid fa-angle-down text-sm"></i></button>
             {
                 isActive ?
                 <div className="absolute min-w-[200px] mt-1 bg-[#f3f3f3] flex flex-col rounded shadow-md">{options.map((data)=>
-                    <button onClick={()=>onSelectOption(data)} className="text-sm px-2 py-1 bg-inherit hover:brightness-95 transition-base rounded">{data}</button>)}</div>
+                    <button 
+                        onClick={()=>onSelectOption(data)} 
+                        className={`
+                            text-sm px-2 py-1 bg-inherit hover:brightness-90 transition-base rounded
+                            ${data === selectedOption ? "font-medium brightness-90 hover:brightness-100" : null}
+                        `}>{data}</button>)}</div>
                 : null
             }
         </div>
