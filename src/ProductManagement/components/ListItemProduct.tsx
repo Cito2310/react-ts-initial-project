@@ -40,7 +40,9 @@ export const ListItemProduct = ({ category, section, name, price, stock, locatio
 
         <tr className="">
             <td colSpan={10}>
-                <div style={{height}} className="bg-white transition-base overflow-hidden flex flex-col shadow-md shadow-[#8f8f8f] rounded-b-md px-6 py-5">
+                <div style={{height}} className={`
+                    ${height !== 0 ? "px-6 py-5" : ""}
+                    bg-white transition-base overflow-hidden flex flex-col shadow-md shadow-[#8f8f8f] rounded-b-md `}>
                     <input value={name}></input>
                     <input></input>
                     <input></input>
