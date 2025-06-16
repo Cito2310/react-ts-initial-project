@@ -23,14 +23,14 @@ export const ButtonFilter = ({ label, options }: props) => {
             <button 
                 onClick={toggleIsActive} 
                 className={`
-                    border rounded-md py-0.5 px-4 flex gap-1 items-center
+                    border rounded-md py-1 px-4 flex gap-1 items-center
                     ${selectedOption ? "bg-black text-white font-light" : null}
                     ${selectedOption === "" ? "bg-white text-black shadow shadow-[#747474]" : null}
                     `}
                 >{selectedOption ? selectedOption : label} <i className="fa-solid fa-angle-down text-sm"></i></button>
             {
                 isActive ?
-                <div className="absolute min-w-[200px] mt-1 bg-[#f3f3f3] flex flex-col rounded shadow-md">{options.map((data)=>
+                <div className="absolute min-w-[200px] mt-2 bg-[#f3f3f3] flex flex-col rounded shadow-md">{options.map((data)=>
                     <button 
                         onClick={()=>onSelectOption(data)} 
                         className={`
