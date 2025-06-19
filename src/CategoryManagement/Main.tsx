@@ -1,11 +1,14 @@
+import { Topbar } from "../POScreen/components/Topbar"
 import { ButtonFilter } from "../ProductManagement/components/ButtonFilter"
 import { ListItemCategory } from "./components/ListItemCategory"
 
 export const CategoryManagement = () => {
     return (
         <div className="font-[Montserrat]">
-            <div className="p-6 px-10">
-                <h1 className="font-extrabold text-3xl italic drop-shadow">Inventario</h1>
+            <Topbar/>
+
+            <div className="mt-8 p-2 px-10">
+                {/* <h1 className="font-extrabold text-3xl italic drop-shadow">Inventario</h1> */}
                 <div className="flex w-full border-b-2">
                     <button className="font-medium px-2 py-2">Productos</button>
                     <span className="border-l h-3.5 my-auto border-[#c4c4c4] mx-3"></span>
