@@ -63,9 +63,8 @@ export const ListItemCategory = ({ section, name }: props) => {
 
                         {/* CONTIENE LOS CONTAINES DE SUBCATEGORIAS */}
                         <div className="flex gap-4 w-full flex-wrap">
-                            <div className="flex flex-col flex-1 min-w-[500px] gap-4">
+                            <div className="flex flex-col flex-1 min-w-[500px] gap-4 border border-[#d5e0e0] rounded-md p-4">
                                  <div className="flex gap-4">
-                                    <input onChange={()=>{}} className="border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Aceite de Girasol"}/>
 
                                     <button className="aspect-square rounded-md px-2 active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff] border-2 border-[#7e9292] text-[#7e9292] flex gap-1 justify-center items-center shadow-md text-lg">
                                     <i className="fa-solid fa-trash"></i>
@@ -73,47 +72,78 @@ export const ListItemCategory = ({ section, name }: props) => {
                                     <button className="aspect-square rounded-md px-2 active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff] border-2 border-[#7e9292] text-[#7e9292] flex gap-1 justify-center items-center shadow-md text-lg">
                                     <i className="fa-solid fa-plus"></i>
                                     </button>
+                                    
                                 </div> 
 
                                 <div className="h-auto flex flex-wrap gap-x-4 gap-y-2">
                                     <div className="flex flex-row [width:calc(50%-0.5rem)] gap-4">
-                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                         <button className="aspect-square rounded-md active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff]  border-[#7e9292] text-[#7e9292] flex justify-center items-center shadow-md text-sm w-9"><i className="fa-solid fa-trash"></i></button>
+                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                     </div>
                                     <div className="flex flex-row [width:calc(50%-0.5rem)] gap-4">
-                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                         <button className="aspect-square rounded-md active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff]  border-[#7e9292] text-[#7e9292] flex justify-center items-center shadow-md text-sm w-9"><i className="fa-solid fa-trash"></i></button>
+                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                     </div>
                                     <div className="flex flex-row [width:calc(50%-0.5rem)] gap-4">
-                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                         <button className="aspect-square rounded-md active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff]  border-[#7e9292] text-[#7e9292] flex justify-center items-center shadow-md text-sm w-9"><i className="fa-solid fa-trash"></i></button>
+                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col flex-1 min-w-[500px] gap-4">
+                            <div className="flex flex-col flex-1 min-w-[500px] gap-4  border border-[#d5e0e0] rounded-md p-4">
                                  <div className="flex gap-4">
+                                    <button className="aspect-square rounded-md px-2 active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff] border-2 border-[#7e9292] text-[#7e9292] flex gap-1 justify-center items-center shadow-md text-lg">
+                                    <i className="fa-solid fa-trash"></i></button>
+                                    <button className="aspect-square rounded-md px-2 active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff] border-2 border-[#7e9292] text-[#7e9292] flex gap-1 justify-center items-center shadow-md text-lg">
+                                    <i className="fa-solid fa-plus"></i>
+                                    </button>
+
                                     <input onChange={()=>{}} className="border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Aceite de Girasol"}/>
 
+                                </div> 
+
+                                <div className="h-auto flex flex-wrap gap-x-4 gap-y-2">
+                                    <div className="flex flex-row [width:calc(50%-0.5rem)] gap-4">
+                                        <button className="aspect-square rounded-md active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff]  border-[#7e9292] text-[#7e9292] flex justify-center items-center shadow-md text-sm w-9"><i className="fa-solid fa-trash"></i></button>
+                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
+                                    </div>
+                                    <div className="flex flex-row [width:calc(50%-0.5rem)] gap-4">
+                                        <button className="aspect-square rounded-md active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff]  border-[#7e9292] text-[#7e9292] flex justify-center items-center shadow-md text-sm w-9"><i className="fa-solid fa-trash"></i></button>
+                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
+                                    </div>
+                                    <div className="flex flex-row [width:calc(50%-0.5rem)] gap-4">
+                                        <button className="aspect-square rounded-md active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff]  border-[#7e9292] text-[#7e9292] flex justify-center items-center shadow-md text-sm w-9"><i className="fa-solid fa-trash"></i></button>
+                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="flex flex-col flex-1 min-w-[500px] gap-4  border border-[#d5e0e0] rounded-md p-4">
+                                 <div className="flex gap-4">
                                     <button className="aspect-square rounded-md px-2 active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff] border-2 border-[#7e9292] text-[#7e9292] flex gap-1 justify-center items-center shadow-md text-lg">
                                     <i className="fa-solid fa-trash"></i>
                                     </button>
                                     <button className="aspect-square rounded-md px-2 active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff] border-2 border-[#7e9292] text-[#7e9292] flex gap-1 justify-center items-center shadow-md text-lg">
                                     <i className="fa-solid fa-plus"></i>
                                     </button>
+
+                                    <input onChange={()=>{}} className="border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Aceite de Girasol"}/>
+
                                 </div> 
 
                                 <div className="h-auto flex flex-wrap gap-x-4 gap-y-2">
                                     <div className="flex flex-row [width:calc(50%-0.5rem)] gap-4">
-                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                         <button className="aspect-square rounded-md active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff]  border-[#7e9292] text-[#7e9292] flex justify-center items-center shadow-md text-sm w-9"><i className="fa-solid fa-trash"></i></button>
+                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                     </div>
                                     <div className="flex flex-row [width:calc(50%-0.5rem)] gap-4">
-                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                         <button className="aspect-square rounded-md active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff]  border-[#7e9292] text-[#7e9292] flex justify-center items-center shadow-md text-sm w-9"><i className="fa-solid fa-trash"></i></button>
+                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                     </div>
                                     <div className="flex flex-row [width:calc(50%-0.5rem)] gap-4">
-                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                         <button className="aspect-square rounded-md active:brightness-[.90] hover:brightness-95 transition-base font-medium bg-[#ffffff]  border-[#7e9292] text-[#7e9292] flex justify-center items-center shadow-md text-sm w-9"><i className="fa-solid fa-trash"></i></button>
+                                        <input onChange={()=>{}} className="w-full border-b-2 flex-1 border-[#d5e0e0] px-1 py-1 outline-none focus:border-[#7e9292] transition-base" value={"Cañuelas"}/>
                                     </div>
                                 </div>
                             </div>

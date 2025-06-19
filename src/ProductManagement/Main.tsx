@@ -37,7 +37,11 @@ export const ProductManagement = () => {
                             </th>
 
                             <th className="text-left font-medium py-1.5 text-[#93aaaa] bg-[#d5e0e0] ">
-                                Stock <i className="fa-solid fa-sort text-xs p-1"/>
+                                Seccion <i className="fa-solid fa-sort text-xs p-1"/>
+                            </th>
+
+                            <th className="text-left font-medium py-1.5 text-[#93aaaa] bg-[#d5e0e0] ">
+                                Localización <i className="fa-solid fa-sort text-xs p-1"/>
                             </th>
 
                             <th className="text-left font-medium py-1.5 text-[#93aaaa] bg-[#d5e0e0] ">
@@ -45,11 +49,7 @@ export const ProductManagement = () => {
                             </th>
 
                             <th className="text-left font-medium py-1.5 text-[#93aaaa] bg-[#d5e0e0] ">
-                                Seccion <i className="fa-solid fa-sort text-xs p-1"/>
-                            </th>
-
-                            <th className="text-left font-medium py-1.5 text-[#93aaaa] bg-[#d5e0e0] ">
-                                Localización <i className="fa-solid fa-sort text-xs p-1"/>
+                                Stock <i className="fa-solid fa-sort text-xs p-1"/>
                             </th>
 
                             <th className="text-left font-medium py-1.5 text-[#93aaaa] bg-[#d5e0e0] rounded-r-lg"></th>

@@ -28,13 +28,23 @@ export const ListItemProduct = ({ category, section, name, price, stock, locatio
                 <td className="font-medium mx-2 text-[#7e9292]">{location}</td>
                 <td className="font-medium mx-2">${price.toLocaleString("es-ES")}</td>
                 <StockBar currentStock={stock[0]} lowStock={stock[1]} />
-                <td>
-                    <button 
-                    onClick={toggleDetailsMenu}
-                    className="
-                    rounded-full bg-[#f7f7f7] flex aspect-square p-3 justify-center
-                    hover:shadow hover:brightness-90 transition-base
-                    "><i className="fa-solid fa-ellipsis"></i></button>
+                <td className="">
+                    <div className="flex gap-4 justify-end pr-4">
+                        <button 
+                        onClick={toggleDetailsMenu}
+                        className="
+                        rounded-full bg-[#f7f7f7] flex aspect-square p-3 justify-center
+                        hover:shadow hover:brightness-90 transition-base
+                        "><i className="fa-solid fa-print"></i></button>
+                        
+                        <button 
+                        onClick={toggleDetailsMenu}
+                        className="
+                        rounded-full bg-[#f7f7f7] flex aspect-square p-3 justify-center
+                        hover:shadow hover:brightness-90 transition-base
+                        "><i className="fa-solid fa-ellipsis"></i></button>
+                    </div>
+
                 </td>
         </tr>
 

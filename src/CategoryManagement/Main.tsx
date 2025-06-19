@@ -11,9 +11,13 @@ export const CategoryManagement = () => {
                     <span className="border-l h-3.5 my-auto border-[#c4c4c4] mx-3"></span>
                     <button className="font-medium px-2 py-2 relative after:absolute after:bottom-[-2px] after:left-0 after:w-full after:h-[2px] after:bg-[#008080] after:transition-colors after:duration-300">Categorias</button>
                 </div>
-                <div className="flex gap-3 my-3">
-                    <input className="border rounded-md py-0.5 shadow shadow-[#747474]" />
-                    <ButtonFilter label="Seccion" options={["Alimentos", "Bebidas", "Producto de Limpieza"]} />
+                <div className="flex items-center my-3 justify-between">
+                    <div className="flex gap-3">
+                        <input className="border rounded-md py-0.5 shadow shadow-[#747474]" />
+                        <ButtonFilter label="Seccion" options={["Alimentos", "Bebidas", "Producto de Limpieza"]} />
+                    </div>
+
+                    <p className="font-medium text-[#008080] transition-base hover:brightness-90 active:brightness-[.80] cursor-pointer mr-2"><i className="fa-solid fa-plus text-[0.8em]"/> Añadir Categoria</p>
                 </div>
 
                 <table className="w-full rounded-lg">
@@ -32,13 +36,6 @@ export const CategoryManagement = () => {
 
                     <ListItemCategory name="Aceite" section="Alimentos" subcategories={[{name: "Aceite de Girasol", brands: ["Marolio", "Cañuelas", "Natura", "Legitimo"]}, {name: "Aceite de Oliva", brands: ["Natura", "Cañuelas"]}]} />
                     <ListItemCategory name="Alcohol" section="Bebidas" subcategories={[{name: "Vino Tinto", brands: ["Termidor", "Toro", "Viñas de Balbo"]}, { name: "Fernet", brands:["Vittone", "Branca"] }]} />
-                    {/* <ListItemProduct location="Estante 1" name="Cañuelas Aceite de girasol" section="Alimento"  category="Aceite" price={2300} stock={[35, 10]}  />
-                    <ListItemProduct location="Estante 1" name="Marolio Aceite de girasol" section="Alimento"  category="Aceite" price={2200} stock={[2, 10]}  />
-                    <ListItemProduct location="Estante 1" name="Natura Aceite de girasol" section="Alimento"  category="Aceite" price={2800} stock={[0, 10]}  />
-                    <ListItemProduct location="Heladera 1" name="Cabalgata Gaseosa Cola" section="Bebidas"  category="Gaseosa" price={1700} stock={[10, 6]}  />
-                    <ListItemProduct location="Heladera 1" name="Cabalgata Gaseosa Naranja" section="Bebidas"  category="Gaseosa" price={1700} stock={[12, 6]}  />
-                    <ListItemProduct location="Heladera 1" name="Cabalgata Gaseosa Lima" section="Bebidas"  category="Gaseosa" price={1700} stock={[5, 6]}  />
-                    <ListItemProduct location="Heladera 2" name="Coca Cola Gaseosa Cola" section="Bebidas"  category="Gaseosa" price={3300} stock={[12, 6]}  /> */}
                 </table>
             </div>
         </div>
