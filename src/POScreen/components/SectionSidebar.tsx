@@ -6,17 +6,16 @@ export const SectionSidebar = () => (
         border-l-2 border-[#7e9292]
         justify-between gap-4 flex flex-col p-4
         `}>
-        {/* top-0 h-screen w-[40%] left-[60%] fixed */}
         <div className="flex flex-col gap-4">
             <div className="flex gap-4">
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Añadir Producto</button>
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Imprimir Ultimo Ticket</button>
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Abrir Caja</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Añadir Producto</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Imprimir Ultimo Ticket</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Abrir Caja</button>
             </div>
             <div className="flex gap-4">
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Descuento Recarga</button>
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Ver Precio</button>
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Realizar Informe</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Descuento Recarga</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Ver Precio</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Realizar Informe</button>
             </div>
         </div>
 
@@ -37,9 +36,8 @@ export const SectionSidebar = () => (
             </div>
 
             <div className="flex gap-4">
-                <button className="rounded-md basis-0 grow bg-[#dd656f] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Cancelar</button>
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Pagar e Imprimir Ticket</button>
-                <button className="rounded-md basis-0 grow bg-[#008080] text-white px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Pagar</button>
+                <button className="rounded-md basis-0 grow bg-[#dd656f] px-2 py-6 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">F5 - Cancelar</button>
+                <button className="rounded-md basis-0 grow bg-[#008080] text-white px-2 py-6 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">F1 - Pagar</button>
             </div>
         </div>
     </div>
