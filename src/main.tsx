@@ -7,12 +7,24 @@ import { POScreen } from './POScreen/Main'
 import { ModalAddProduct } from './ModalDesigns/ModalAddProduct'
 import { ModalCashSession } from './ModalDesigns/ModalCashSession'
 import { ModalCashOpen } from './ModalDesigns/ModalCashOpen'
+import { ModalCashClosedPartOne } from './ModalDesigns/ModalCashClosedPartOne'
+import { ModalCashClosedPartTwo } from './ModalDesigns/ModalCashClosedPartTwo'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
+    {/* TODOS */}
+    {/* TODOS ModalPrintLastTicket */}
+    {/* TODOS ModalViewLastSells */}
+    {/* TODOS ModalDisconts */}
+    {/* TODOS ModalViewPrice */}
+    {/* TODOS ModalMakeReport */}
+
     {/* <ModalAddProduct /> */}
     {/* <ModalCashSession /> */}
-    <ModalCashOpen />
+    {/* <ModalCashOpen /> */}
+    {/* <ModalCashClosedPartOne /> */}
+    {/* <ModalCashClosedPartTwo /> */}
+
 
 
     <POScreen />

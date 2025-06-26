@@ -19,7 +19,7 @@ export const ModalCashSession = () => {
                 <div className="flex flex-col gap-4">
                     <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Abrir Caja</button>
                     <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Retirar Efectivo</button>
-                    <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Añadir Cambio</button>
+                    <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Registrar Gasto</button>
 
                 </div>
             </div>
