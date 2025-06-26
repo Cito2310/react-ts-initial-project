@@ -8,7 +8,7 @@ export const ModalAddProduct = () => {
             bg-white font-[Montserrat] py-6 px-10 pb-8 w-[500px] rounded-md
             flex flex-col gap-4
         `}>
-            <div className="flex justify-between">
+            <div className="flex justify-between items-center">
                 <h2 className="font-medium text-xl">Añadir Producto</h2>
                 
                 <button className="text-[#686868]"><i className="fa-solid fa-xmark text-xl"/></button>
