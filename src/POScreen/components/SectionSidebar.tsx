@@ -14,7 +14,7 @@ export const SectionSidebar = () => (
             </div>
             <div className="flex gap-4">
                 <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Descuento Recarga</button>
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Ver Precio</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Ver Ultimas Ventas</button>
                 <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Realizar Informe</button>
             </div>
         </div>

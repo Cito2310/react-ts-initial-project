@@ -9,16 +9,19 @@ import { ModalCashSession } from './ModalDesigns/ModalCashSession'
 import { ModalCashOpen } from './ModalDesigns/ModalCashOpen'
 import { ModalCashClosedPartOne } from './ModalDesigns/ModalCashClosedPartOne'
 import { ModalCashClosedPartTwo } from './ModalDesigns/ModalCashClosedPartTwo'
+import { ModalPrintLastTicket } from './ModalDesigns/ModalPrintLastTicket'
+import { ModalMakeReport } from './ModalDesigns/ModalMakeReport'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     {/* TODOS */}
-    {/* TODOS ModalPrintLastTicket */}
+    <ModalMakeReport />
     {/* TODOS ModalViewLastSells */}
     {/* TODOS ModalDisconts */}
-    {/* TODOS ModalViewPrice */}
     {/* TODOS ModalMakeReport */}
+    {/* TODOS ModalRegisterSpending */}
 
+    {/* <ModalPrintLastTicket /> */}
     {/* <ModalAddProduct /> */}
     {/* <ModalCashSession /> */}
     {/* <ModalCashOpen /> */}
