@@ -7,10 +7,13 @@ export const POScreen = () => {
         <div className="font-[Montserrat] flex">
             <Topbar />
 
-            <SectionSidebar />
+            <div className="flex w-full">
+                <SectionSidebar />
+
+                <SectionSumProduct />
+            </div>
 
         
-            <SectionSumProduct />
         </div>
     )
 }

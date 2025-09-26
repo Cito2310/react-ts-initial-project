@@ -1,6 +1,7 @@
 export const ModalCashSession = () => {
-    return <>
-        <div className="fixed top-0 left-0 w-screen h-screen bg-[#00000041] z-[100]"/>
+    return (
+        <>
+            <div className="fixed top-0 left-0 w-screen h-screen bg-[#00000041] z-[100]" />
 
 
         <div className={`
@@ -14,15 +15,19 @@ export const ModalCashSession = () => {
                 <button className="text-[#686868]"><i className="fa-solid fa-xmark text-xl"/></button>
             </div>
 
+                <section className="bg-[#f4f8f8] rounded-md p-4 shadow-sm flex flex-col gap-3">
+                    <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">
+                        Abrir Caja
+                    </button>
+                    <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">
+                        Retirar Efectivo
+                    </button>
+                    <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">
+                        Registrar Gasto
+                    </button>
+                </section>
 
-            <div className="flex flex-col">
-                <div className="flex flex-col gap-4">
-                    <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Abrir Caja</button>
-                    <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Retirar Efectivo</button>
-                    <button className="transition-base rounded-md bg-[#d5e0e0] text-[#3d4646] px-2 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Registrar Gasto</button>
-
-                </div>
             </div>
-        </div>
-    </>
-}
+        </>
+    );
+};

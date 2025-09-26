@@ -8,15 +8,15 @@ export const SectionSidebar = () => (
         `}>
         <div className="flex flex-col gap-4">
             <div className="flex gap-4">
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Añadir Producto</button>
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Imprimir Ultimo Ticket</button>
-                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Abrir Caja</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Agregar Producto</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Ultimas Ventas</button>
+                <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Administrar Caja</button>
             </div>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
                 <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Descuento Recarga</button>
                 <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Ver Ultimas Ventas</button>
                 <button className="rounded-md basis-0 grow bg-[#d5e0e0] px-4 py-2 shadow active:brightness-[.90] active:shadow-inner hover:brightness-95 hover:shadow-none">Realizar Informe</button>
-            </div>
+            </div> */}
         </div>
 
         <div className="flex flex-col gap-4">
